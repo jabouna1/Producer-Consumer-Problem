@@ -15,6 +15,6 @@ gcc consumer.c -pthread -o consumer -Irt
 
 **Example Output:**
 
-Producer enters the critical section and places items onto buffer represented as 1's until "full". Producer exits critical section and consumer enters turning 1's into 0's to represent picing up the items until "empty". For demonstration purposes, the procedure iterates 10 times. See the output below for reference as well as the code provided in the repository. 
+Producer enters the critical section and places items onto buffer represented as 1's until "full". Producer exits critical section and consumer enters turning 1's into 0's to represent picking up the items until "empty". For demonstration purposes, the procedure iterates 10 times. See the output below for reference as well as the code provided in the repository. 
 
 ![image](https://user-images.githubusercontent.com/86804265/139169924-0330ec5a-766e-442d-befe-e2a16cd7d2e2.png)
